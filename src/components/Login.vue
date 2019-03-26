@@ -2,6 +2,7 @@
   <div class="login">
     <div v-if="isLogin">您好，您已登录</div>
     <div v-if="!isLogin">您还没有登录，请 <span style="color: red" @click="login()">登录</span>!</div>
+
   </div>
 </template>
 
